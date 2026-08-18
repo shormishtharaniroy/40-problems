@@ -4,17 +4,17 @@
  
 int main() 
 { 
-    int n; 
+    int a; 
     printf("Enter number of elements: "); 
-    scanf("%d",&n); 
-    int A[n]; 
+    scanf("%d",&a); 
+    int A[a]; 
     printf("Enter elements: "); 
  
-    for(int i=0;i<n;i++) 
+    for(int i=0;i<a;i++) 
     { 
         scanf("%d",&A[i]); 
     } 
-    printf("Number of elements in the set is %d.",n); 
+    printf("Number of elements in the set is %d.",a); 
  
     return 0; 
 } 
